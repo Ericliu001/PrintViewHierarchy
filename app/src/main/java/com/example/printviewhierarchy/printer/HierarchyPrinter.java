@@ -4,6 +4,19 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * "└── ", "    ", "├── ", "│   "
+ * String lineBreak = System.getProperty("line.separator");
+ * root
+ * ├── a1
+ * │   ├── a1_1
+ * │   ├── a1_2
+ * │   └── a1_3
+ * └── b1
+ * ├── b1_1
+ * │   └── b1_1_1
+ * └── b1_2
+ */
 final class HierarchyPrinter {
 
     /**
